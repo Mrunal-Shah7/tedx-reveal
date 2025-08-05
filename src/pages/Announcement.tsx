@@ -9,6 +9,8 @@ const Announcement = () => {
   const navigate = useNavigate();
 
   const handleReveal = () => {
+    const audio = new Audio('/public/sounds/audio1.mp3');
+    audio.play()
     setShowCurtains(true);
     // Start curtain opening animation after a brief delay
     setTimeout(() => {
