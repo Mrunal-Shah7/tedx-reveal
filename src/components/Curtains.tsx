@@ -40,9 +40,9 @@ const Curtains = ({ isOpen, onAnimationComplete }: CurtainsProps) => {
       <div className="fixed inset-0 flex items-center justify-center z-50 pointer-events-none">
         <div className="text-center opacity-60">
           <h1 className="text-6xl font-bold tracking-wider text-primary animate-glow">
-            TEDx
+            
           </h1>
-          <p className="text-xl mt-4 text-foreground/80">Preparing the reveal...</p>
+          <p className="text-xl mt-4 text-foreground/80"></p>
         </div>
       </div>
     </div>
