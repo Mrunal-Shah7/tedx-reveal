@@ -202,9 +202,11 @@ const TEDxReveal = () => {
                   </div>
                 </div>
                 
-                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-primary via-primary to-accent text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-black tracking-tight animate-glow relative z-10 leading-tight">
-                  TEDx<span className="block sm:inline text-white">AdaniUniversity</span>
+                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-primary via-primary to-accent text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black tracking-tight animate-glow relative z-10 leading-tight">
+                TEDx<span className="block sm:inline text-white">AdaniUniversity</span>
                 </span>
+                <div className="block text-transparent bg-clip-text bg-gradient-to-r from-primary via-primary to-accent text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black tracking-tight animate-glow relative z-10 leading-tight text-white">Women</div>
+
               </div>
             </div>
           </div>
@@ -219,17 +221,13 @@ const TEDxReveal = () => {
                 
               </p>
               <div className="relative">
-                <p className="text-3xl md:text-5xl lg:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 tracking-wide animate-pulse shadow-2xl">
-                  This Fall
+                <p className="text-3xl md:text-5xl lg:text-4xl font-bold text-white bg-clip-text bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 tracking-wide animate-pulse shadow-2xl">
+                  This Fall Season 
                 </p>
                 <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-32 h-1 bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 rounded-full animate-pulse shadow-lg"></div>
                 {/* Enhanced multi-layer glow effect */}
-                <div className="absolute inset-0 text-3xl md:text-5xl lg:text-6xl font-bold text-yellow-400 blur-lg opacity-50 animate-pulse">
-                  This Fall
-                </div>
-                <div className="absolute inset-0 text-3xl md:text-5xl lg:text-6xl font-bold text-orange-500 blur-md opacity-40 animate-pulse">
-                  This Fall
-                </div>
+               
+               
               </div>
             </div>
           </div>
